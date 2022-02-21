@@ -1,0 +1,9 @@
+server:
+  port: 20001
+  tomcat:
+    uri-encoding: UTF-8
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: zookeeper://localhost:2181
